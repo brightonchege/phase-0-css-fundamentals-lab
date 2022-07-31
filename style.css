@@ -3,3 +3,33 @@ body {
   height: 100%;
   margin: 0;
 }
+header{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+#featured-property{
+  margin: auto;
+}
+#featured-property p{
+ margin: auto;
+ width: 800px;
+}
+
+figure{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+figcaption{
+  display: grid;
+  justify-content: center;align-items: center;
+}
+#details{
+  display: flex;
+  justify-content: space-around;
+  background-color: red;
+}
+#details div{
+float: left;
+}
